@@ -1,0 +1,22 @@
+{
+  "name": "hy-ui-demo",
+  "outputPath": "dist",
+  "releasePath": "release",
+  "ignore": [],
+  "builder": {
+    "name": "@hyext/builder-beyond",
+    "config": {
+      "useCssLoader": true,
+      "designWidth": 750,
+      "buildConfig": {
+        "H5": [
+          {
+            "entry": "index.js",
+            "extType": "web_video_com",
+            "platform": "web"
+          }
+        ]
+      }
+    }
+  }
+}

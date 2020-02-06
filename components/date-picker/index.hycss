@@ -1,0 +1,8 @@
+.demo-BottomModal {
+  height: 60px;
+  width: 120px;
+  background-color: pink;
+  border-radius: 80px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+.demo-swiper-item1 {
+  flex: 1;
+  background-color: #666;
+}
+
+.demo-swiper-item2 {
+  flex: 1;
+  background-color: red;
+}
+
+.demo-swiper-item3 {
+  flex: 1;
+  background-color: orange;
+}
+
+.demo-swiper {
+  height: 300px;
+}
