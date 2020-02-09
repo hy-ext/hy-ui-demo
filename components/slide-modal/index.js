@@ -3,7 +3,6 @@ import { ScrollView, View, Text, Dimensions, StatusBar, Platform } from 'react-n
 import { UI } from '@hyext/hy-ui'
 
 import styles from '../../common/styles'
-import { measure } from '../../common/util'
 
 const { Button, SlideModal } = UI
 
@@ -145,7 +144,7 @@ export default class SlideModalScreen extends Component {
               this.btnEl2 = element
             }}
             onPress={() => {
-              measure(this.btnEl2, (fx, fy, width, height, px, py) => {
+              this.btnEl2.measure((fx, fy, width, height, px, py) => {
                 this.setState({
                   offsetX2: px + 130,
                   offsetY2: py
@@ -196,7 +195,7 @@ export default class SlideModalScreen extends Component {
               this.btnEl3 = element
             }}
             onPress={() => {
-              measure(this.btnEl3, (fx, fy, width, height, px, py) => {
+              this.btnEl3.measure((fx, fy, width, height, px, py) => {
                 this.setState({
                   // offsetX3: px,
                   offsetY3: py + height
@@ -240,7 +239,7 @@ export default class SlideModalScreen extends Component {
               this.btnEl4 = element
             }}
             onPress={() => {
-              measure(this.btnEl4, (fx, fy, width, height, px, py) => {
+              this.btnEl4.measure((fx, fy, width, height, px, py) => {
                 this.setState({
                   offsetX4: px + width,
                   offsetY4: py + height
@@ -278,7 +277,7 @@ export default class SlideModalScreen extends Component {
               this.btnEl5 = element
             }}
             onPress={() => {
-              measure(this.btnEl5, (fx, fy, width, height, px, py) => {
+              this.btnEl5.measure((fx, fy, width, height, px, py) => {
                 this.setState({
                   offsetX5: px,
                   offsetY5: py + height

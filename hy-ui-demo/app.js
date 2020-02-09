@@ -6,7 +6,7 @@ import './app.hycss'
 import { components } from './config.js'
 import { Router, Route } from '../components/Route'
 
-console.log('欢迎来到hy-ui官网')
+console.log('欢迎来到hy-ui官网', global.Taf)
 
 const { Button, View, Text, ScrollView, NavigationBar } = UI
 

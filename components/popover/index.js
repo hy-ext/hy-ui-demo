@@ -12,7 +12,6 @@ import { UI } from '@hyext/hy-ui'
 
 import styles from '../../common/styles'
 import variables from '../../customTheme'
-import { measure } from '../../common/util'
 
 const { Popover, Button } = UI
 
@@ -88,7 +87,7 @@ export default class PopoverScreen extends Component {
           }}
           size='sm'
           onPress={() => {
-            measure(this.btnA, (fx, fy, width, height, px, py) => {
+            this.btnA.measure((fx, fy, width, height, px, py) => {
               this.setState({
                 offsetX: px + 130,
                 offsetY: py
@@ -126,7 +125,7 @@ export default class PopoverScreen extends Component {
           }}
           size='sm'
           onPress={() => {
-            measure(this.btnB, (fx, fy, width, height, px, py) => {
+            this.btnB.measure((fx, fy, width, height, px, py) => {
               this.setState({
                 offsetXB: px + width,
                 offsetYB: py + height

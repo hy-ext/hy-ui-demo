@@ -3,7 +3,6 @@ import { ScrollView, View, Text } from 'react-native'
 import { UI } from '@hyext/hy-ui'
 
 import styles from '../../common/styles'
-import { measure } from '../../common/util'
 
 const { Button, Modal, Input } = UI
 
@@ -106,7 +105,7 @@ export default class ModalScreen extends Component {
           textColorInverse
           size='sm'
           onPress={() => {
-            measure(this.btnEl, (fx, fy, width, height, px, py) => {
+            this.btnEl.measure((fx, fy, width, height, px, py) => {
               this.setState({
                 animatedTranslateX: px + width / 2,
                 animatedTranslateY: py + height / 2

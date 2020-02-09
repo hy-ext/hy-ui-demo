@@ -1,4 +1,6 @@
 .demo-image {
-  height: 60px;
-  width: 60px;
+  height: 400px;
+  width: 400px;
+  margin-top: 160px;
+  margin-left: 175px;
 }

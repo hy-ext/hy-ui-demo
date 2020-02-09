@@ -3,7 +3,6 @@ import { ScrollView, View, Dimensions } from 'react-native'
 import { UI } from '@hyext/hy-ui'
 
 import styles from '../../common/styles'
-import { measure } from '../../common/util'
 
 const { Button, Dropdown, Icon } = UI
 const window = Dimensions.get('window')
@@ -41,7 +40,7 @@ export default class DropdownScreen extends Component {
   }
 
   open (emitter, responsor, { xKey, yKey }) {
-    measure(emitter, (fx, fy, width, height, px, py) => {
+    emitter.measure((fx, fy, width, height, px, py) => {
       this.setState({
         [xKey]: fx,
         [yKey]: py + height

@@ -1,0 +1,19 @@
+.font-1 {
+    font-size: 24px;
+}
+
+.font-2 {
+    font-size: 28px;
+}
+
+.font-3 {
+    font-size: 36px;
+}
+
+.font-4 {
+    font-size: 48px;
+}
+
+.font-wrap {
+   
+}

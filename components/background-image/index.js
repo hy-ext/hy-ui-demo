@@ -7,7 +7,7 @@ const { BackgroundImage, Text, View } = UI
 function Index () {
   return (
     <View className="demo-backgroundImage-wrap">
-      <BackgroundImage className="demo-backgroundImage" src="http://img.wxcha.com/file/201911/28/cc7fc23c07.jpg">
+      <BackgroundImage className="demo-backgroundImage" src="https://4k-m.com/upimg/bzimg/20180817160933.jpg">
         <Text className="backgroundImage-content">Hi~</Text>
       </BackgroundImage>
     </View>

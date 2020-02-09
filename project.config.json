@@ -15,7 +15,15 @@
             "extType": "web_video_com",
             "platform": "web"
           }
+        ],
+        "RN": [
+          {
+            "entry": "index.js",
+            "extType": "app_panel",
+            "platform": "app"
+          }
         ]
+
       }
     }
   }

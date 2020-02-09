@@ -1,0 +1,22 @@
+{
+  "name": "hy-ui-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hyext/builder-beyond": "latest",
+    "@hyext/compile": "latest"
+  },
+  "dependencies": {
+    "@hyext/hy-ui": "latest",
+    "fecha": "^4.0.0",
+    "hyext-rn-sdk": "1.7.0"
+  }
+}

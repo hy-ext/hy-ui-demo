@@ -1,7 +1,18 @@
 .demo-view {
-  height: 100px;
-  width: 120px;
-  background-color: pink;
+  padding-top: 200px;
+  align-items: center;
+}
+
+.demo-view-inner {
+  height: 300px;
+  width: 300px;
+  background-color: lightpink;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
+}
+
+.demo-view-text {
+  font-size: 36px;
+  color: #fff;
 }

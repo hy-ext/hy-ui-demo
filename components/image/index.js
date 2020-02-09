@@ -16,7 +16,7 @@ class Index extends Component {
 
   render () {
     return (
-      <Image className="demo-image" mode="cover" onLoad={this.imgLoad} src={require('../../img/default-avatar.png')}></Image>
+      <Image className="demo-image" mode="cover" onLoad={this.imgLoad} src={require('../../img//image-demo.jpg')}></Image>
     )
   }
 }

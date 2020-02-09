@@ -1,16 +1,16 @@
 .demo-backgroundImage {
-  height: 300px;
-  width: 300px;
+  height: 380px;
+  width: 600px;
   justify-content: center;
   align-items: center;
 }
 
 .backgroundImage-content {
-  color: #fff;
+  color: lightblue;
   font-size: 30px;
 }
 
 .demo-backgroundImage-wrap {
   padding-top: 200px;
-  padding-left: 220px;
+  padding-left:  70px;
 }

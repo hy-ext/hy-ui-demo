@@ -12,7 +12,9 @@ class Index extends Component {
   render () {
     return (
       <View className="demo-view">
-        <Text>View Box</Text>
+        <View className="demo-view-inner">
+          <Text className="demo-view-text">视图容器</Text>
+        </View>
       </View>
     )
   }
