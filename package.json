@@ -17,6 +17,11 @@
   "dependencies": {
     "@hyext/hy-ui": "latest",
     "fecha": "^4.0.0",
-    "hyext-rn-sdk": "1.7.0"
+    "hyext-react-native-canvas": "0.0.2",
+    "hyext-rn-sdk": "1.7.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-native-sound": "^0.11.0",
+    "react-native-webview": "5.12.1"
   }
 }

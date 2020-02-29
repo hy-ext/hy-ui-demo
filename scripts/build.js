@@ -15,7 +15,7 @@ const buidOpts = {
     }
   },
   inputPath: path.resolve(__dirname, '../'),
-  outputPath: path.resolve(__dirname, '../www'),
+  outputPath: path.resolve(__dirname, '../website'),
   publicPath: '/web/hy-ui-doc/'
 }
 

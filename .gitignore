@@ -1,4 +1,4 @@
 node_modules
 dist
 release
-www
+website/**

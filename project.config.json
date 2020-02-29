@@ -6,8 +6,10 @@
   "builder": {
     "name": "@hyext/builder-beyond",
     "config": {
+      "webSDKVersion": "test",
       "useCssLoader": true,
       "designWidth": 750,
+      "port": 18088,
       "buildConfig": {
         "H5": [
           {
@@ -23,7 +25,6 @@
             "platform": "app"
           }
         ]
-
       }
     }
   }

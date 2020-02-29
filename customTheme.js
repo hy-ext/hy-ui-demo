@@ -1,6 +1,6 @@
-import { UI } from '@hyext/hy-ui'
+import { Modules } from '@hyext/hy-ui'
 
-const { useTheme } = UI
+const { helper } = Modules
 
 // 获取自定义主题的变量
 // 以下是示例
@@ -15,5 +15,5 @@ const customTheme = {
   hyBrandInfo: '#188afa'
 }
 
-const tmp = useTheme(customTheme)
+const tmp = helper.useTheme(customTheme)
 export default tmp

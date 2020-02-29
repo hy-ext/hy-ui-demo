@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { ScrollView, View, Text, Dimensions, TouchableOpacity, SafeAreaView } from 'react-native'
 
-import { UI } from '@hyext/hy-ui'
+import { UI, Modules } from '@hyext/hy-ui'
 
 import styles from '../../common/styles'
 
-const { Button, SlideModal, BottomModal, Icon, useTheme } = UI
-const variables = useTheme()
+const { Button, SlideModal, BottomModal, Icon } = UI
+const  { helper } = Modules
+const variables = helper.useTheme()
 const window = Dimensions.get('window')
 
 export default class BottomModalScreen extends Component {

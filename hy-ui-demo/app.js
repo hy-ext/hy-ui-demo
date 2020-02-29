@@ -1,12 +1,12 @@
 /* eslint-disable react/no-direct-mutation-state */
-import { UI } from '@hyext/hy-ui'
+import { UI, Modules } from '@hyext/hy-ui'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './app.hycss'
 import { components } from './config.js'
 import { Router, Route } from '../components/Route'
 
-console.log('欢迎来到hy-ui官网', global.Taf)
+console.log('欢迎来到hy-ui官网', UI, Modules, Modules.helper.scalePx(300))
 
 const { Button, View, Text, ScrollView, NavigationBar } = UI
 

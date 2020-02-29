@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { ScrollView, View, Text, TouchableOpacity } from 'react-native'
-import { UI } from '@hyext/hy-ui'
+import { UI, Modules } from '@hyext/hy-ui'
 import styles from '../../common/styles'
 import variables from '../../customTheme'
 import { format } from 'fecha'
 
-const { Icon, Input, Form, Button, Checkbox, Switch, Radio, BottomModal, Datepicker, renderSafeArea } = UI
+const { Icon, Input, Form, Button, Checkbox, Switch, Radio, BottomModal, Datepicker } = UI
+const { helper } = Modules
 
 export default class FormScreen extends Component {
   constructor (p) {
@@ -212,7 +213,7 @@ export default class FormScreen extends Component {
               }}
             />
           </View>
-          { renderSafeArea() }
+          { helper.renderSafeArea() }
         </BottomModal>
       </ScrollView >
     )

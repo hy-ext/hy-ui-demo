@@ -36,6 +36,9 @@ import Longlist from '../components/longlist'
 import Badge from '../components/badge'
 import BottomModal from '../components/bottom-modal'
 import Rate from '../components/rate'
+import Canvas from '../components/canvas'
+import Sound from '../components/sound'
+import Vibration from '../components/vibration'
 
 export const components = [
   {
@@ -72,6 +75,11 @@ export const components = [
     name: 'Cascader',
     component: Cascader,
     title: '级联'
+  },
+  {
+    name: 'Canvas',
+    component: Canvas,
+    title: '画布'
   },
   {
     name: 'Dialog',
@@ -194,6 +202,11 @@ export const components = [
     title: '计数器'
   },
   {
+    name: 'Sound',
+    component: Sound,
+    title: '声音'
+  },
+  {
     name: 'Tab',
     component: Tab,
     title: '标签'
@@ -227,5 +240,10 @@ export const components = [
     name: 'View',
     component: View,
     title: '容器'
+  },
+  {
+    name: 'Vibration',
+    component: Vibration,
+    title: '震动'
   }
 ]
